@@ -1,0 +1,29 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "extends": "airbnb-base",
+    "rules": {
+        "arrow-body-style": [
+            "error",
+            "always"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ], 
+        "no-console": 0,
+        "max-len": [
+            2,
+            10000,
+            4
+        ]
+        
+    }
+}
